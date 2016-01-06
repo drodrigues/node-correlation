@@ -1,6 +1,6 @@
 {
   "name": "node-correlation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.JS script to calculate correlation between two arrays.",
   "keywords": [
     "correlation",
