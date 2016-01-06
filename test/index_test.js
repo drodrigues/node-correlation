@@ -8,4 +8,12 @@ describe("Correlation", function() {
     });
   });
 
+  context("calc", function() {
+    it('return the correlation result', function() {
+      var result = correlation.calc([1, 2, 3, 4, 5], [0, 6, 2, 10, 4]);
+
+      expect(result).to.equal(0.493196962)
+    });
+  });
+
 });
