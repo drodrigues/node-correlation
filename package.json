@@ -1,6 +1,6 @@
 {
   "name": "node-correlation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.JS script to calculate correlation between two arrays.",
   "keywords": [
     "correlation",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git://github.com/drodrigues/node-correlation"
   },
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
