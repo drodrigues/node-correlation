@@ -1,6 +1,6 @@
 # node-correlation
 
-A Node.JS Script to calculate correlation between 2 arrays.
+A Node.JS script to calculate correlation between two arrays.
 
 ## Usage
 

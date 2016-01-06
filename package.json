@@ -1,7 +1,12 @@
 {
   "name": "node-correlation",
   "version": "1.0.0",
-  "description": "Node.js correlation module",
+  "description": "A Node.JS script to calculate correlation between two arrays.",
+  "keywords": [
+    "correlation",
+    "math",
+    "array"
+  ],
   "main": "index.js",
   "config": {
     "reporter": "spec",
@@ -23,5 +28,8 @@
   },
   "dependencies": {
     "isnumeric": "^0.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/drodrigues/node-correlation/issues"
   }
 }
