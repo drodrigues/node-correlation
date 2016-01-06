@@ -1,0 +1,24 @@
+{
+  "name": "node-correlation",
+  "version": "1.0.0",
+  "description": "Node.js correlation module",
+  "main": "index.js",
+  "config": {
+    "reporter": "spec",
+    "test_helper": "./test/test_helper.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter $npm_package_config_reporter --ui bdd --require $npm_package_config_test_helper --recursive",
+    "test:watch": "npm test -- --watch"
+  },
+  "author": "Danilo Rodrigues <danilo.rodrigues@threadbrasil.com.br> (http://threadbrasil.com.br)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drodrigues/node-correlation"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
