@@ -2,12 +2,12 @@
 
 A Node.JS script to calculate correlation between two arrays.
 
-## Usage
+### Install
 
 ```sh
 npm install node-correlation
 ```
-
+### Usage
 ```js
 var Correlation = require('node-correlation');
 
