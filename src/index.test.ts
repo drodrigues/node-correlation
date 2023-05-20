@@ -25,7 +25,7 @@ describe('correlation', () => {
     it('return the result', function () {
       var result = correlation([1, 2, 3, 4, 5], [0, 6, 2, 10, 4]);
 
-      expect(result).toEqual(0.493196962);
+      expect(result).toEqual(0.4931969619160718);
     });
   });
 });

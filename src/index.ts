@@ -33,9 +33,6 @@ export const correlation = (xValues: number[], yValues: number[]) => {
     sumOfSquares += (x - averageX) * (y - averageY);
   }
 
-  const result = (
-    sumOfSquares /
-    ((xValues.length - 1) * standardDeviationX * standardDeviationY)
-  ).toFixed(9);
-  return parseFloat(result);
+  const result = sumOfSquares / ((xValues.length - 1) * standardDeviationX * standardDeviationY);
+  return result;
 };
