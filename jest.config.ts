@@ -7,6 +7,14 @@ const config: Config = {
   testEnvironment: 'node',
   preset: 'ts-jest',
   collectCoverageFrom: ['**/*.{ts,tsx}', '!**/node_modules/**', '!**/vendor/**'],
+  transform: {
+    '^.+\\.tsx?$': [
+      'ts-jest',
+      {
+        diagnostics: false,
+      },
+    ],
+  },
 };
 
 export default config;
