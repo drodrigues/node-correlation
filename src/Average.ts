@@ -1,2 +1,2 @@
-export const simple = (entries: number[]): number =>
-  entries.reduce((a: number, b: number) => a + b) / entries.length;
+export const simple = (values: number[]): number =>
+  values.reduce((a: number, b: number) => a + b) / values.length;
