@@ -8,7 +8,7 @@
     "array"
   ],
   "main": "index.js",
-  "types": "./types/index.d.ts",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "build": "rimraf ./lib && tsc --project tsconfig.build.json",
     "test": "jest --runInBand",

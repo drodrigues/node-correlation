@@ -16,11 +16,10 @@
     "allowUnreachableCode": true,
     "allowJs": false,
     "typeRoots": [
-      "types",
       "./node_modules/@types"
     ],
     "skipLibCheck": true,
   },
-  "include": ["src/**/*", "types/**/*.d.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
