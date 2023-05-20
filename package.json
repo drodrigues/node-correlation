@@ -1,6 +1,6 @@
 {
   "name": "node-correlation",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "A Node.JS script to calculate correlation between two arrays.",
   "keywords": [
     "correlation",
@@ -8,13 +8,9 @@
     "array"
   ],
   "main": "index.js",
-  "types": "lib/types/index.d.ts",
-  "config": {
-    "reporter": "spec",
-    "test_helper": "./test/test_helper.js"
-  },
+  "types": "./types/index.d.ts",
   "scripts": {
-    "build": "rimraf ./lib && tsc --project tsconfig.json",
+    "build": "rimraf ./lib && tsc --project tsconfig.build.json",
     "test": "jest --runInBand",
     "lint": "eslint . --ext .ts"
   },

@@ -3,21 +3,24 @@
     "target": "es2017",
     "lib": ["ES6"],
     "declaration": true,
+    "emitDeclarationOnly": false,
+    "declarationMap": true,
     "module": "commonjs",
     "rootDir": "./src",
+    "moduleResolution": "node",
     "outDir": "./lib/",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "allowUnreachableCode": true,
-    "allowJs": true,
+    "allowJs": false,
     "typeRoots": [
-      "./src/types",
+      "types",
       "./node_modules/@types"
     ],
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "types/**/*.d.ts"],
   "exclude": ["node_modules"]
 }
